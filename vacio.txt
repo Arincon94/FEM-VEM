@@ -1,0 +1,7 @@
+Mensaje secreto
+Comandos: mkdir - Crear carpeta
+	  touc nombre.tipo - Crear documento
+	  cat nombre.tipo - Abrir documento
+	  history - Abrir historial de comandos
+	  !#comando listado - Repetir el comando
+	  rm nombre.tipo - Borrar documentos
