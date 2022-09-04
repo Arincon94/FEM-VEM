@@ -1,0 +1,19 @@
+Mensaje secreto
+Comandos: mkdir - Crear carpeta
+	  touc nombre.tipo - Crear documento
+	  cat nombre.tipo - Abrir documento
+	  history - Abrir historial de comandos
+	  !#comando listado - Repetir el comando
+	  rm nombre.tipo - Borrar documentos
+	  git status - Revisar el status de los archivos
+	  git add nombre.tipo - Admite el documento para cambios
+
+// Agregar cambios
+1. git innit - Para iniciar el  repositorio, del proceso de cambios
+2. git add . - Preparar el documento al repositorio
+3. got commit -m "mnsj" - Enviar el documento al repositorio.
+
+// Volver a un estado anterior - Tener cuidado, tiene riesgo
+1. Identificar las versiones: git log nombre.tipo
+2. Copiar la versión del commit a la que quiero regresar = vcommit
+3. git reset vcomit --hard
