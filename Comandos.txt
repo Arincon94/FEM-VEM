@@ -1,0 +1,29 @@
+Mensaje secreto
+Comandos: mkdir - Crear carpeta
+	  touc nombre.tipo - Crear documento
+	  cat nombre.tipo - Abrir documento
+	  history - Abrir historial de comandos
+	  !#comando listado - Repetir el comando
+	  rm nombre.tipo - Borrar documentos
+	  git status - Revisar el status de los archivos
+	  git add nombre.tipo - Admite el documento para cambios
+
+// Agregar cambios
+1. git innit - Para iniciar el  repositorio, del proceso de cambios
+2. git add . - Preparar el documento al repositorio
+3. got commit -m "mnsj" - Enviar el documento al repositorio.
+
+// Volver a un estado anterior - Tener cuidado, tiene riesgo
+1. Identificar las versiones: git log nombre.tipo
+2. Copiar la versión del commit a la que quiero regresar = vcommit
+3. git reset vcomit --hard
+
+
+TERMINALES
+1// Cambiar de terminal
+- git checkout master - Hacer siempre para más seguridad.
+2// Crear una nueva terminal
+- git brunch "nombre" - Sin comillas, no vaya a ser tan mk de ponerlas.
+Los documentos quedan guarados con el mismo nombre en las diferentes
+terminales, pero a la hora de hace el cambio (2//), se evidencia
+el cambio en la versión del archivo.

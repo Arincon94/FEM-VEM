@@ -1,3 +1,9 @@
 Hola Soy Carlos Andrés
 
+<<<<<<< HEAD
 Estoy viviendo en Brasil
+=======
+Estoy viviendo en Brasil
+
+Quiero hablar con Daniela, ya mismo.
+>>>>>>> cabecera
